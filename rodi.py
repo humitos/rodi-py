@@ -192,6 +192,8 @@ class RoDI(object):
     def led(self, state):
         '''
         Turns the led on or off
+
+        values for state are 0: off and 1: on
         '''
         url = self._build_url(
             self.LED_METHOD,
